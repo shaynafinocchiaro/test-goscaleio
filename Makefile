@@ -1,7 +1,7 @@
 integration_tests_path=./inttests
 unit_test_paths= ./ ./api
 
-all: unit-test int-test mock-test check gosec
+all: unit-test int-test mock-test check gosec 
 
 unit-test:
 	go clean -cache
